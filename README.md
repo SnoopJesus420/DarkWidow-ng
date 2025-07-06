@@ -25,6 +25,10 @@ A Customizable Dropper Tool targeting Windows.
 6. PPID spoofing (**MITRE ATT&CK TTP: [T1134.004](https://attack.mitre.org/techniques/T1134/004/)**)
 7. Api and Dll resolving from TIB (Directly via offset (from TIB) -> TEB -> PEB -> resolve Nt Api) (**MITRE ATT&CK TTP: [T1106](https://attack.mitre.org/techniques/T1106/)**)
 8. Cursed Nt API hashing (MITRE ATT&CK ID: [S0574](https://attack.mitre.org/software/S0574/))
+9. Payload storage via .rsrc
+10. Manually walks PE directory tree to load payload from .rsrc -> [info](https://www.linkedin.com/posts/mikegropp_storing-shellcode-in-the-resources-section-activity-7343608917098209281-Fwgx/?utm_medium=ios_app&rcm=ACoAAD9e9ZcBf3ctE4ZQLxBwnrDd7saeZQPTjUk&utm_source=social_share_send&utm_campaign=copy_link)
+11. AES256 payload decryption via [Hell's Shell](https://github.com/NUL0x4C/HellShell)
+12. Beigning function 
 
 ### Bonus: If blessed with Admin privilege =>
 
