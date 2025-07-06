@@ -1,0 +1,15 @@
+﻿  indirect.cpp
+C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\EventLog.h(156,24): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'ULONG'
+  (compiling source file 'indirect.cpp')
+  
+C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\EventLog.h(156,24): warning C4302: 'type cast': truncation from 'PVOID' to 'ULONG'
+  (compiling source file 'indirect.cpp')
+  
+C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\indirect.cpp(372,31): warning C4312: 'type cast': conversion from 'int' to 'PVOID' of greater size
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\SyscallStuff.h(165): warning C4715: 'GetsyscallInstr': not all control paths return a value
+C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\SyscallStuff.h(104): warning C4715: 'SortSSN': not all control paths return a value
+  All 22 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  indirect.vcxproj -> C:\Users\MALDEV01\Desktop\Tools\DarkWidow-funtimes\DarkWidow\src\x64\Release\indirect.exe
