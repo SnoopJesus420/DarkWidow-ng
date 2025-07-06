@@ -28,7 +28,7 @@ A Customizable Dropper Tool targeting Windows.
 9. Payload storage via .rsrc
 10. Manually walks PE directory tree to load payload from .rsrc -> [info](https://www.linkedin.com/posts/mikegropp_storing-shellcode-in-the-resources-section-activity-7343608917098209281-Fwgx/?utm_medium=ios_app&rcm=ACoAAD9e9ZcBf3ctE4ZQLxBwnrDd7saeZQPTjUk&utm_source=social_share_send&utm_campaign=copy_link)
 11. AES256 payload decryption via [Hell's Shell](https://github.com/NUL0x4C/HellShell)
-12. Beigning function 
+12. Beigning function for entropy
 
 ### Bonus: If blessed with Admin privilege =>
 
